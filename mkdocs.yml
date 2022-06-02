@@ -1,2 +1,12 @@
 site_name: SRE Meetings Directory
 theme: material
+markdown_extensions:
+  - admonition
+  - codehilite
+  - smarty
+  - meta
+  - toc:
+      permalink: True
+  - markdown_include.include:
+      base_path: docs
+  - attr_list

@@ -1,8 +1,8 @@
-# Kubernetes
-Un pequeno texto de lo que se hace con kubernetes en siigo Un pequeno texto de lo que se hace con kubernetes en siigo Un pequeno texto de lo que se hace con kubernetes en siigo Un pequeno texto de lo que se hace con kubernetes en siigo Un pequeno texto de lo que se hace con kubernetes en siigo 
+# Datadog
+Un pequeno texto de lo que se hace con datadog en siigo Un pequeno texto de lo que se hace con kubernetes en siigo Un pequeno texto de lo que se hace con kubernetes en siigo Un pequeno texto de lo que se hace con kubernetes en siigo Un pequeno texto de lo que se hace con kubernetes en siigo 
 
 
-## Migrar el Cluster de QA MEx a SPOT
+## COnfiguraciond e Dashboard
 Migracion de clusters de QA Mex a SPOT,  proceso detallado de como actualizar los clusters a la nueva version de el modulo de `infraestructure-modules` de Clusters con `spot`
 
 [Url Reunion](https://www.mkdocs.org)
@@ -18,7 +18,7 @@ Anotaciones importantes de la grabacion
 
 
 
-## Kubernetes Tema 1
+## Alertas
 Migracion de clusters de QA Mex a SPOT,  proceso detallado de como actualizar los clusters a la nueva version de el modulo de `infraestructure-modules` de Clusters con `spot`
 
 [Url Reunion](https://www.mkdocs.org)
