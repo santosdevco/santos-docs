@@ -8,10 +8,10 @@ Un pequeno texto de lo que se hace con terraform  en siigo Un pequeno texto de l
 
 [IAC](https://dev.azure.com/SiigoDevOps/Architecture/_git/iac){target=_blank}
 
-## Terraform Otro Tema
+## Creacion de Front Manager
 Migracion de clusters de QA Mex a SPOT,  proceso detallado de como actualizar los clusters a la nueva version de el modulo de `infraestructure-modules` de Clusters con `spot`
 
-[Url Reunion](https://siigosa-my.sharepoint.com/:v:/g/personal/cace801555_siigo_com1/EUOXLiCK7yJAmgW_0rUtaRMB1epZOMdKGjcG27V_T9C60Q){target=_blank}
+[Url Reunion](https://siigosa-my.sharepoint.com/:v:/g/personal/cace801555_siigo_com1/ETDrEsT0X7dDrkwJW96yL-gBfbe-9nS_gSMxVyuTeVqA7A){target=_blank}
 
 ### Breakpoints
 * Min 0 Ambientacion
@@ -36,3 +36,6 @@ Migracion de clusters de QA Mex a SPOT,  proceso detallado de como actualizar lo
 
 ### Anotaciones 
 Anotaciones importantes de la grabacion
+```
+Terragrunt plan
+```
