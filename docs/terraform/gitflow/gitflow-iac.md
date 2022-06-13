@@ -55,11 +55,11 @@ $ git push origin  $branch_name
  
 ## Crear un pull requests y aprobarlo
 1. Se debe crear un pull requests de la nueva rama a la rama principal
-![Pull requests create](/img/pull_requests/create.png   )
+![Pull requests create](../../../img/pull_requests/create.png   )
 2. Este pull requests se comparte con los compañeros de trabajo para que lo revisen y lo aprueben.
  
 3. Cuando haya sido aprobado se procede a integrar a la rama principal.
-![Pull requests complete](/img/pull_requests/complete.png   )
+![Pull requests complete](../../../img/pull_requests/complete.png   )
  
  
 ## Bajar el nuevo cambio de la rama principal
