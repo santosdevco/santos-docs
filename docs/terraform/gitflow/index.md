@@ -2,7 +2,7 @@
 Git flow es una metodología de trabajo que facilita la integración de cambios de equipos grandes de desarrollo, basada en el división de las distintas etapas de producción de software en distintas ramas del repositorio:
  
  
-![Git Flow](../../../img/gitflow1.svg)
+![Git Flow](../../img/gitflow1.svg)
 <!-- ![Git Flow](../../../img/git_flow_explanation.svg) -->
  
 * **Master:** En la rama máster se encuentran las releases estables de nuestro software. Esta es la rama que un usuario típico se descarga para usar nuestro software, por lo que todo lo que hay en esta rama debería ser funcional. Sin embargo, puede que las últimas mejoras introducidas en el software no estén disponibles todavía en esta rama.
