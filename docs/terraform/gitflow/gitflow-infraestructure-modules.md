@@ -55,11 +55,11 @@ $ git push origin  $branch_name
 
 ## Crear un pull requests y aprobarlo
 1. Se debe crear un pull requests de la nueva rama a la rama principal
-![Pull requests create](/img/pull_requests/create.png   )
+![Pull requests create](../../../img/pull_requests/create.png   )
 2. Este pull requests se comparte con los companeros de trabajo para que lo revisen y lo aprueben.
 
 3. Cuando haya sido aprobado se procede a integrar a la rama principal.
-![Pull requests complete](/img/pull_requests/complete.png   )
+![Pull requests complete](../../../img/pull_requests/complete.png   )
 
 
 ## Bajar el nuevo cambio de la rama principal
@@ -78,7 +78,7 @@ git pull origin $principal_branch
 
 
 1. Buscar el ultimo tag del modulo, en este ejemplo el modulo es aks_node_pools
-![Tags last](/img/tags/last.png)
+![Tags last](../../../img/tags/last.png)
 2. Definir el nombre del tag
 ```bash
 # tag_name={modulename}-{new_version}
