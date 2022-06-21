@@ -35,10 +35,16 @@ git clone https://github.com/platzi/curso-kubernetes
 +                      data=data,
 +                      headers={"Content-Type": "application/octet-stream"})
 ```
+
 Notar que:
--  En nodejs hay que poner la url sin `http://`.
--  En python si hay que colocarlo en las urls que se consumen con la libreria `requests`.
--  La url de  `redis` no lleva el protocolo:  `redis.default.svc.cluster.local`.<br/><br/>
+
+  -  En nodejs hay que poner la url sin `http://`.
+  -  En python si hay que colocarlo en las urls que se consumen con la libreria `requests`.
+  -  La url de  `redis` no lleva el protocolo:  `redis.default.svc.cluster.local`.<br/><br/>
+<br/>
+<div></div>
+
+
 3. Crear las imagenes de docker, por facilidad se usara docker-compose para generar todas las imagenes con un comando. Antes apuntar al registry de `minikube`
 ```sh
 $ eval $(minikube -p minikube docker-env)
@@ -379,6 +385,7 @@ $ kubectl rollout restart deployment web-ui
   # deployment.apps/web-ui restarted
 ```
 2. `Connection refused` o `ENOTFOUND`, recordar que:
+
 -  En nodejs hay que poner la url sin `http://`.
 -  En python si hay que colocar el protocolo en  las urls que se consumen con la libreria `requests`.
 -  La url de  `redis` no lleva el protocolo:  `redis.default.svc.cluster.local`.<br/><br/>
