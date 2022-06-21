@@ -1,4 +1,5 @@
-# Labs Kubernetes
+# Kubernetes
+Mis anotaciones de kubernetes
 
 
 ## Preparacion de laboratorio local en linux
@@ -39,7 +40,7 @@ En este laboratorio se levantara un pod con un servicio de nginx y se expondra e
 
 ```bash
 # Create a cluster
-minikube start
+minikube start --driver=kvm2
 # start the pod running nginx
 kubectl create deployment --image=nginx nginx-app
 # [OPTIONAL] add env to nginx-app

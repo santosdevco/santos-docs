@@ -1,5 +1,8 @@
 site_name: SRE Meetings Directory
-theme: material
+theme: 
+  name: material
+  features:
+    - content.code.annotate #
 markdown_extensions:
   - admonition
   - codehilite

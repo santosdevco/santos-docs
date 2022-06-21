@@ -93,3 +93,16 @@ $ git tag -a  tag_name  -m "message"
 $ git pull origin tag_name
 ```
 [`Git Flow`](https://www.youtube.com/watch?v=abtqhoMqCWY){target=_blank}
+
+
+```console
+informatica@rami802288-11:~/dev/sre_meetings_directory$ ls
+```
+```bash start_symbol=$
+informatica@rami802288-11:~/dev/sre_meetings_directory$ ls
+```
+
+```py
+def a(s):
+    print(s)
+```

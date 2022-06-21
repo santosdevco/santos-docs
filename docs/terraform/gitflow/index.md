@@ -16,4 +16,3 @@ En este momento nosotros hacemos uso  de un esquema reducido de esta metodologí
 ### Nota
 *Se hace una documentación por cada repositorio para hacerlo más sencillo.*
  
-
