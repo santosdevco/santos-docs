@@ -35,10 +35,10 @@ sudo systemctl enable "$servicename.service"
 echo "documentation server installed"
 if which xdg-open > /dev/null
 then
-  xdg-open url
+  xdg-open $url
 elif which gnome-open > /dev/null
 then
-  gnome-open url 
+  gnome-open $url 
 fi
 echo "open $url to see your new documentation server"
 echo "run the next commands to interact with your service $servicename"
