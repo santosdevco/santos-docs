@@ -27,7 +27,7 @@ wget https://raw.githubusercontent.com/SantiagoAndre/SRE-Meetings-Directory/loca
 echo "creating service $servicename"
 z="{sub(\"{vpath}\",\"$vpath\")}1"
 awk $z $servicetemplatepath > $servicetemplatepath.replaced
-cat $servicetemplatepath.replaced
+# cat $servicetemplatepath.replaced
 echo "installing service  in $servicefinalpath"
 sudo mv $servicetemplatepath.replaced $servicefinalpath
 # echo "deleting temp template"
