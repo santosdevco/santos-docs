@@ -24,9 +24,10 @@ echo -e "PORT=$port\nSERVICENAME=$servicename" >> $vpath/.env
 echo "temp downloading service template in $servicetemplatepath"
 wget https://raw.githubusercontent.com/SantiagoAndre/SRE-Meetings-Directory/local-install/local-install/mydocs.service -O $servicetemplatepath
 
-echo "installing service  in $servicetemplatepath"
+echo "creating service $servicename"
 z="{sub(\"{vpath}\",\"$vpath\")}1"
 awk $z $servicetemplatepath > $servicetemplatepath
+echo "installing service  in $servicefinalpath"
 sudo mv $servicetemplatepath $servicefinalpath
 # echo "deleting temp template"
 # rm $servicetemplatepath
