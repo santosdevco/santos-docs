@@ -1,5 +1,7 @@
 #! /bin/bash
 
+set -e
+
 DEFAULT_PORT=29990
 DEFAULT_SERVICENAME="mydocs"
 read -p "Enter service name[default $DEFAULT_SERVICENAME]" servicename
