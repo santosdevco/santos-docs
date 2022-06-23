@@ -30,8 +30,8 @@ awk $z $servicetemplatepath > $servicetemplatepath.replaced
 # cat $servicetemplatepath.replaced
 echo "installing service  in $servicefinalpath"
 sudo mv $servicetemplatepath.replaced $servicefinalpath
-# echo "deleting temp template"
-# rm $servicetemplatepath
+echo "deleting temp template"
+rm $servicetemplatepath
 
 echo "starting service $servicename"
 sudo systemctl start "$servicename.service" 
