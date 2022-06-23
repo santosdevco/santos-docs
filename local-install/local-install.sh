@@ -9,7 +9,7 @@ servicename=${servicename:-$DEFAULT_SERVICENAME}
 port=${port:-$DEFAULT_PORT}
 servicetemplatepath=mydocs.service
 servicefinalpath="/etc/systemd/system/$servicename.service"
-ulr=http://localhost:$port
+url=http://localhost:$port
 echo "documentation project source will be in $vpath"
 echo "service name will be  $servicename"
 echo "server port will be  $port"
