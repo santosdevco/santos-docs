@@ -36,7 +36,8 @@ La aplicación se compone de 3 componentes principales:
  
 Por el momento este componente solo baja **NUEVOS RECURSOS**, más adelante podría ser capaz de  determinar si un recurso ha sido **ELIMINADO** o **ACTUALIZADO**, y reflejarlo en la db.
  
-- **Id Factory**: Este componente tiene el objetivo de generar id aleatorios para cada nuevo recurso o grupo de recursos o sub, en un principio se pensaba generar un tag `_id`, en azure para que este se identificará a través de este tag, pero nunca se ejecutó.
+- **Id Factory**: Este componente tiene el objetivo de generar id aleatorios para cada nuevo recurso o grupo de recursos o sub
+<!-- , en un principio se pensaba generar un tag `_id`, en azure para que este se identificará a través de este tag. -->
  
 - **Subscription Fetcher**: Este componente tiene el objetivo de consultar las suscripciones de azure a través del api, procesarlas y retornarlas en formato json.
  
@@ -171,7 +172,7 @@ Procesar los costos de `Rocket` no es una tarea sencilla  ya que rocket nos da l
 ### Siigo Costs API
 ![diagrama arquitectura](./img/siigocosts/C2API.png)
  
-Por el momento solo hay un endpoint, este genera un reporte, en formato  `excel`, hay que especificar la siguiente información:
+En este momento solo hay un endpoint, este genera un reporte, en formato  `excel`, hay que especificar la siguiente información:
  
 - **Periods:** Son los periodos que se quieren ver en el reporte, ej:  `2022-1`,`2022-2`,`2022-3`.
 - **Subscriptions:** Son las suscripciones a las cuales se quiere generar costos ej : `b3fd9f1c-0ed5-4f6e-9a93-75ae90718vfa`, se generará una hoja de excel para cada sub.
@@ -182,7 +183,7 @@ Al final el reporte generará dos hojas de cálculo por sub, uno con los costos 
 #### Ejemplo de una petición con curl.
 ```bash
 curl -X 'POST' \
- 'http://localhost:8000/excel_report' \
+ 'https://apisiigoreports.azurewebsites.net/docs#/default/generate_costs_report_excel_report_post/excel_report' \
  -H 'accept: application/json' \
  -H 'Content-Type: application/json' \
  -d '{
@@ -190,16 +191,20 @@ curl -X 'POST' \
    "1-2022","2-2022","3-2022","4-2022","5-2022"
  ],
  "subscriptions": [
-   "b3fd9f1c-0ed5-4f6e-9a93-75ae90718vfa"
+   "b3fd****-****-****-****-*****8vfa", "7fef****-****-****-****-**089f788"
  ],
  "providers": [
-   "rocket"
+   "rocket","azure"
  ],
  "minimal_cost": -1
 }'
  
 ```
- 
+#### Uso del API desde la Documentacion
+
+La documentacion del API esta en el endpoint [`/docs`](https://apisiigoreports.azurewebsites.net/docs#/default/generate_costs_report_excel_report_post/docs){target=_blank}
+ del api, desde ahi se puede llamar el api de una forma mas grafica. 
+
  
  
 
