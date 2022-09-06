@@ -15,7 +15,7 @@ largo del tiempo.
  
 <!-- ![diagrama arquitectura](./img/siigocosts/design_siigo_costs.png) -->
 <!--  -->
-![diagrama arquitectura](./img/siigocosts/C4-Level1 .png)
+![diagrama arquitectura](../img/siigocosts/C4-Level1 .png)
  
 La aplicación se compone de 3 componentes principales:
  
@@ -32,7 +32,7 @@ La aplicación se compone de 3 componentes principales:
 -  **POWER BI**: Esta tecnología externa nos ayudará a analizar la información de una forma más sencilla, con gráficos, consultas complejas etc, power bi tiene las opciones de obtener datos de un API o una db, en este caso MongoDB.
  
 ### Siigo Resources Management
-![diagrama arquitectura](./img/siigocosts/C2Resources Management.png)
+![diagrama arquitectura](../img/siigocosts/C2Resources Management.png)
  
 Por el momento este componente solo baja **NUEVOS RECURSOS**, más adelante podría ser capaz de  determinar si un recurso ha sido **ELIMINADO** o **ACTUALIZADO**, y reflejarlo en la db.
  
@@ -51,7 +51,7 @@ Cabe aclarar que  usando lógica difusa se determina cual es el `Service Name` p
 - **Azure Fetcher  Main**: Este componente tiene el objetivo de llamar a los diferentes fetchers y posteriormente guardar la información en la base de datos.
  
 ### Siigo Costs Processor
-![diagrama arquitectura](./img/siigocosts/C2CostsProcessor.png)
+![diagrama arquitectura](../img/siigocosts/C2CostsProcessor.png)
  
 Este es un diseño simplificado de este módulo, este componente consulta en este momento información de costos directamente de `Azure` y de `Rocket`, los procesa y guarda en la base de datos.
  
@@ -170,7 +170,7 @@ Procesar los costos de `Rocket` no es una tarea sencilla  ya que rocket nos da l
 ```
  
 ### Siigo Costs API
-![diagrama arquitectura](./img/siigocosts/C2API.png)
+![diagrama arquitectura](../img/siigocosts/C2API.png)
  
 En este momento solo hay un endpoint, este genera un reporte, en formato  `excel`, hay que especificar la siguiente información:
  

@@ -1,4 +1,4 @@
-# Comunicacion de dos PODS con un service NodePort
+# 5. Comunicacion de dos PODS con un service NodePort
 En este laboratorio se creara un servicio NodePort para que un pod pueda alcanzar a otro usando  un `SVCHOST`.
 ![diagrama arquitectura](../img/lab4-kub.png)
 

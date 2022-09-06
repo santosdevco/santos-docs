@@ -1,4 +1,4 @@
-# Load Balancer y una API Flask 
+# 2. Load Balancer y una API Flask 
 
 En este laboratorio se desplegara una aplicacion dockerizada hecha en `python` en `kubernetes`, agregando un `LoadBalancer`.
 

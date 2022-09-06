@@ -1,5 +1,5 @@
-# Kubernetes
-Mis anotaciones de kubernetes
+# 1. Instalacion
+<!-- Mis anotaciones de kubernetes -->
 
 
 ## Preparacion de laboratorio local en linux

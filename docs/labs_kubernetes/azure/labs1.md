@@ -1,4 +1,4 @@
-# Azure Kubernetes Service
+# 1. Azure Kubernetes Service
 En este lab se mostrara como levantar un `container registry` y un `cluster` en Azure, y luego se desplegara la aplicacion `Docker Coins`.
 
 <!-- ![diagrama arquitectura](../img/docker-coins.png) -->
@@ -144,4 +144,4 @@ WEBUI running on port 80
 kubectl port-forward svc/web-ui 8011:80
 7. Abrir en el navegador la url `localhost:8011`
 
-![web-ui dockercoins](../img/webui-dockercoins.png)
+![web-ui dockercoins](../../img/webui-dockercoins.png)

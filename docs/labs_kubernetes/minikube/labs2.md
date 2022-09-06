@@ -1,4 +1,4 @@
-# Compartir archivos entre  dos containers en un Pod 
+# 3. Compartir archivos entre  dos containers en un Pod 
 En este laboratorio se comunicaran dos `containers` que viven en un mismo `pod` usando `volumenes`.
 
 ![diagrama arquitectura](../img/k8s-multicontainer-pod-diagram.jpg)

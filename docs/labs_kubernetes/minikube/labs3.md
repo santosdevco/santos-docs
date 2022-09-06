@@ -1,4 +1,4 @@
-# Ping desde entre dos containers de un mismo POD
+# 4. Ping desde entre dos containers de un mismo POD
 En este laboratorio se mostrara que se pueden alcanzar containers en un mismo pod. En este laboratorio se usara la imagen `santos/flask-hello-world` de laboratorios atras, y tambien usara una configuracion sencilla nginx.
 
 1. Crear el archivo de configuracion de nginx `nginx-vol/default.conf` el el directorio que vamos a enlazar con un volumen al container.

@@ -1,4 +1,4 @@
-# Docker Coins en Kubernetes
+# 6. Docker Coins en Kubernetes
 En este laboratorio montara la conocida  aplicacion [`Docker Coins`](https://github.com/dockersamples/dockercoins){target=_blank} en Kubernetes, especificamente se clono este repositorio [`Docker Coins`](https://github.com/platzi/curso-kubernetes/){target=_blank}
 
 ![diagrama arquitectura](../img/docker-coins.png)
@@ -393,3 +393,8 @@ $ kubectl rollout restart deployment web-ui
 ```sh
 $ eval $(minikube -p minikube docker-env)
 ```
+
+
+
+### Mira este lab en Azure Kubernetes Service:
+En la siguiente pagina podras ver el laboratio [link](/labs_kubernetes/azure/labs1/)
