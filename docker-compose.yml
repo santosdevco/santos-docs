@@ -1,10 +1,11 @@
 version: "3.8"
 services:
-  mkdocs:
-    build : .
-    container_name: mkdocs
+  mydocs:
+    build: .
+    container_name: ${SERVICENAME}
     volumes:
       - .:/docs
     ports:
-      - 8000:8000
-    command: [ serve,-a, 0.0.0.0:8000]
+      - "${PORT}:${PORT}"
+    command: [ serve,-a, "0.0.0.0:${PORT}"]
+ 
