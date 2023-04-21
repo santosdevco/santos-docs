@@ -1,5 +1,5 @@
 # Directorio de grabaciones de SRE
-Este directorio es creado con el objetivo de facilitar el acceso a grabaciones con alto valor de aprendizaje sobre diferentes temas de la tribu, como terraform, kubeternetes, administracion azure, linux, etc.
+Estde directorio es creado con el objetivo de facilitar el acceso a grabaciones con alto valor de aprendizaje sobre diferentes temas de la tribu, como terraform, kubeternetes, administracion azure, linux, etc.
 
 Aqui se van registrando todas las grabaciones  donde diferentes integrantes de la tribu explican un tema importante.
 
