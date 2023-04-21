@@ -32,6 +32,8 @@ A continuación un diagrama de flujo de alto nivel del flujo de la aplicación.
  
 <!-- ![high level flow diagram](/assets/img/high_level_flow.png "high level flow diagram" =250x) -->
 
+<!-- <img src="./teassets/img/high_level_flow.png" width="300"> -->
+
 ![diagrama arquitectura](../img/az_massive_tagging/high_level_flow.png)
 
 <br/>
