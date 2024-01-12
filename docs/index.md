@@ -1,7 +1,7 @@
 # Santos Docs
 
 
-Bienvenido a mi documentación oficial creada con Docs, aquí encontrarás laboratorios para aprender a usar diferentes tecnologías desde 0 orientados a tener una comprensión profunda del funcionamiento interno de estas tecnologías y poder sacarles el máximo provecho. Aquí encontrarás múltiples laboratorios en donde se irá aumentando la complejidad todo acompañado de diagramas, un paso a paso y proyectos en Github para facilitar su aprendizaje.
+Bienvenido a mi documentación oficial creada con MkDocs, aquí encontrarás laboratorios para aprender a usar diferentes tecnologías desde 0 orientados a tener una comprensión profunda del funcionamiento interno de estas tecnologías y poder sacarles el máximo provecho. Aquí encontrarás múltiples laboratorios en donde se irá aumentando la complejidad todo acompañado de diagramas, un paso a paso y proyectos en Github para facilitar su aprendizaje.
 
 
 ## Temas
