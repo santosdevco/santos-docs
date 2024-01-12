@@ -34,10 +34,10 @@ En este momento solo tengo pública la documentación de los laboratorios de Kub
 - Para grandes cambios, crea un issue discutiendo tus ideas antes de proceder.
 
 
-**Preguntas o discusiones:** Si tienes alguna pregunta o quieres discutir una idea, no dudes en contactarme a través de [GitHub](https://github.com/SantiagoAndre) o mi mail santosdevco@gmail.com.
+**Preguntas o discusiones:** Si tienes alguna pregunta o quieres discutir una idea, no dudes en contactarme a través de [GitHub](https://github.com/SantiagoAndre) o mi mail projects@santosdevco.com.
 
 
-¡Gracias por tu interés en contribuir a este proyecto!
+¡Gracias por tu interés en contribuir a este y otros proyectos!
 
 
 
