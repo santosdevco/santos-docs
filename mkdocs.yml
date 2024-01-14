@@ -43,7 +43,7 @@ nav:
 #   - ... | labs_kubernetes/*.md
   
   - Celery & Fast API Labs:
-        - CeleryFastAPILabs.md
+        - ... | flat | celeryfastapi/*.md
 
   - Google Maps Scrapper:
         - GoogleMapsScrapper.md
