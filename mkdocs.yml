@@ -51,3 +51,6 @@ nav:
         - AZ 204:
             - Azurecertifications/Az204/index.md
             - Azurecertifications/Az204/1.vms.md
+  - Microservices with Docker: cbir_project.md
+  - Lists In Haskell: haskell.md
+  - Versions a Git Clone: versions.md
