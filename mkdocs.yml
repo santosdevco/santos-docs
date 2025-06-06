@@ -23,15 +23,6 @@ plugins:
     - awesome-pages
 nav:
   - Home: index.md
-  # - SRE Tools: 
-  #   - Massive Migrate Resourse Groups Tags: sre_tools/rg_massive_tags.md
-  #   - Siigo Costs: sre_tools/siigo_costs.md
-  # - Terraform:
-  #   - Introduccion: terraform/index.md
-  #   - gitflow:
-  #       - Introduccion: terraform/gitflow/index.md
-  #       - IAC: terraform/gitflow/gitflow-iac.md
-  #       - Infraestructure Modules: terraform/gitflow/gitflow-infraestructure-modules.md
   - Labs Kubernetes:
         - Minikube:
             - ... | flat |*/minikube/*.md
@@ -39,18 +30,12 @@ nav:
             - labs_kubernetes/azure/labs1.md
         - Graphana:
             - labs_kubernetes/helm/graphana_prometheus.md
-        # - ... 
-#   - ... | labs_kubernetes/*.md
-  
+
   - Celery & Fast API Labs:
         - ... | flat | celeryfastapi/*.md
 
   - Google Maps Scrapper:
         - GoogleMapsScrapper.md
-  - Azure Certifications:
-        - AZ 204:
-            - Azurecertifications/Az204/index.md
-            - Azurecertifications/Az204/1.vms.md
   - Microservices with Docker: cbir_project.md
   - Lists In Haskell: haskell.md
   - Versions a Git Clone: versions.md
