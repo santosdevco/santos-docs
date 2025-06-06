@@ -1,7 +1,7 @@
 # Docker Coins en Kubernetes
 En este laboratorio montara la conocida  aplicacion [`Docker Coins`](https://github.com/dockersamples/dockercoins){target=_blank} en Kubernetes, especificamente se clono este repositorio [`Docker Coins`](https://github.com/platzi/curso-kubernetes/){target=_blank}
 
-![diagrama arquitectura](../img/docker-coins.png)
+![diagrama arquitectura](../../../img/docker-coins.png)
 
 Cada microservicio(`worker`,`rng`,`webui`,`hasher`) y redis se montara en `Pods` diferentes.
 1. Clonar el repo:

@@ -1,6 +1,6 @@
 # Comunicacion de dos PODS con un service NodePort
 En este laboratorio se creara un servicio NodePort para que un pod pueda alcanzar a otro usando  un `SVCHOST`.
-![diagrama arquitectura](../img/lab4-kub.png)
+![diagrama arquitectura](../../../img/lab4-kub.png)
 
 1. Para este laboratorio se creo una apliacion en flask que se conecta a una base de datos mongo, esta app tiene dos rutas, enviar mensaje, leer mensajes, los mensajes se guardan en la base de datos.
 ```py

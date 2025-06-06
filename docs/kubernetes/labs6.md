@@ -144,4 +144,4 @@ WEBUI running on port 80
 kubectl port-forward svc/web-ui 8011:80
 7. Abrir en el navegador la url `localhost:8011`
 
-![web-ui dockercoins](../img/webui-dockercoins.png)
+![web-ui dockercoins](../../../img/webui-dockercoins.png)
