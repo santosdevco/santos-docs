@@ -1,8 +1,13 @@
 site_name: Santos Docs
-theme: 
+site_url: https://docs.santosdev.com
+theme:
   name: material
+  # Características de Material, incluyendo resaltado de código y tabla de contenidos activa
   features:
-    - content.code.annotate #
+    - content.code.annotate
+    - navigation.instant         # Habilita navegación instantánea (contenido cargado vía XHR)
+  prev_next_buttons_location: both  # Muestra botones “Anterior” y “Siguiente” arriba y abajo :contentReference[oaicite:4]{index=4}
+
 markdown_extensions:
   - admonition
   - codehilite
@@ -11,31 +16,49 @@ markdown_extensions:
   - toc:
       permalink: True
   - markdown_include.include:
-      base_path: docs
+      base_path: docs            # Carpeta base para includes relativos :contentReference[oaicite:5]{index=5}
   - attr_list
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
+
 plugins:
-    - search
-    - awesome-pages
+  - search
+  - awesome-pages               # Para navegación personalizada con patrones “flat” :contentReference[oaicite:6]{index=6}
+
 nav:
   - Home: index.md
+
   - Labs Kubernetes:
-        - Minikube:
-            - ... | flat |*/minikube/*.md
-        - Azure Kubernetes Service:
-            - labs_kubernetes/azure/labs1.md
-        - Graphana:
-            - labs_kubernetes/helm/graphana_prometheus.md
+      - Minikube:
+          - labs_kubernetes/minikube/index.md
+          - labs_kubernetes/minikube/labs1.md
+          - labs_kubernetes/minikube/labs2.md
+          - labs_kubernetes/minikube/labs3.md
+          - labs_kubernetes/minikube/labs4.md
+          - labs_kubernetes/minikube/labs5.md
+      - Azure Kubernetes Service:
+          - labs_kubernetes/azure/labs1.md
+      # Se omite intencionalmente la sección de Grafana/Prometheus (HELM)
 
   - Celery & Fast API Labs:
-        - ... | flat | celeryfastapi/*.md
+      - celeryfastapi/CeleryFastAPILabs/index.md
+      - celeryfastapi/lab1.md
+      - celeryfastapi/lab2.md
+      - celeryfastapi/lab3.md
+      - celeryfastapi/lab4.md
+      - celeryfastapi/lab5.md
 
   - Google Maps Scrapper:
-        - GoogleMapsScrapper.md
-  - Microservices with Docker: cbir_project.md
-  - Lists In Haskell: haskell.md
-  - Versions a Git Clone: versions.md
+      - GoogleMapsScrapper.md
+
+  - Microservices with Docker:
+      - cbir_project.md
+
+  - Lists In Haskell:
+      - haskell.md
+
+  - Versions a Git Clone:
+      - versions.md
