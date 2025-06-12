@@ -1,7 +1,7 @@
 # Compartir archivos entre  dos containers en un Pod 
 En este laboratorio se comunicaran dos `containers` que viven en un mismo `pod` usando `volumenes`.
 
-![diagrama arquitectura](../../../img/k8s-multicontainer-pod-diagram.jpg)
+![diagrama arquitectura](../../../../img/k8s-multicontainer-pod-diagram.jpg)
 
 1. Crear el el `pod` con un `volumen` , y dos `containers`
 ```yaml

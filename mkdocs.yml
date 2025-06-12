@@ -44,7 +44,7 @@ nav:
       # Se omite intencionalmente la sección de Grafana/Prometheus (HELM)
 
   - Celery & Fast API Labs:
-      - celeryfastapi/CeleryFastAPILabs/index.md
+      - celeryfastapi/CeleryFastAPILabs.md
       - celeryfastapi/lab1.md
       - celeryfastapi/lab2.md
       - celeryfastapi/lab3.md
